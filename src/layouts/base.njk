@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    {# This is the base template for the site–other templates extend this one #}
+    
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://cdn.glitch.global/c91bd10a-0834-406e-99a0-35ad683ab565/New%20Note.png?v=1655441554079" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Your new 11ty blog" />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    {% seo "" %}
+  </head>
+  <body>
+  <main>
+    
+    {# Page or post content will appear here #}
+  
+    {{ content | safe }}
+
+      <footer class="footer">
+        <div class="links">
+          <a href="https://github.com/slingann" target="_blank">GitHub</a>
+          <span class="divider">|</span>
+          <a href="https://linkedin.com/in/samikshalingan" target="_blank">LinkedIn</a>
+        </div>
+      </footer>
+    <br>
+    </main>
+  </body>
+</html>
