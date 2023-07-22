@@ -1,0 +1,7 @@
+{
+  "glitch-help-instructions": "For a custom domain, change the 'url' parameter from 'glitch-default' to your domain _without_ a traling slash, like 'https://www.example.com'",
+  "title": "Samiksha Lingan",
+  "description": "A simple Eleventy blog, built with Glitch. Remix it to get your own.",
+  "url": "glitch-default",
+  "image": "https://cdn.glitch.global/c91bd10a-0834-406e-99a0-35ad683ab565/New%20Note.png?v=1655441554079"
+}
