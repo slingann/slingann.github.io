@@ -1,0 +1,160 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: blank
+first_name: Samiksha
+middle_name: 
+last_name: Lingan
+email: slingan@berkeley.edu
+description: >
+  Incoming PhD student at Columbia University. Research in clinical NLP, 
+  computational linguistics, and health informatics.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+keywords: samiksha lingan, berkeley
+
+lang: en
+icon: 
+url: https://slingann.github.io
+baseurl:
+last_updated: true
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+repo_theme_light: default
+repo_theme_dark: dark
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+rss_icon: false
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: false
+max_width: 800px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+serve_og_meta: true
+serve_schema_org: true
+og_image:
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: sarikap8
+linkedin_username: sarika-pasumarthy
+scholar_userid: # Add your Google Scholar ID when you have publications indexed
+orcid_id: # Add your ORCID ID
+twitter_username:
+
+contact_note: >
+  I am always happy to discuss research collaborations, especially in clinical NLP and computational health.
+
+# -----------------------------------------------------------------------------
+# Analytics
+# -----------------------------------------------------------------------------
+
+google_analytics:
+google_site_verification:
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages"]
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-email-protect
+
+sass:
+  style: compressed
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics: false
+enable_masonry: false
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_medium_zoom: true
+enable_progressbar: true
+
+# -----------------------------------------------------------------------------
+# Library versions
+# -----------------------------------------------------------------------------
+
+academicons:
+  version: "1.9.4"
+  integrity: "sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XkF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw=="
+bootstrap:
+  version: "4.6.2"
+  integrity:
+    css: "sha512-rt/SrQ4UNIaGfDyEXZtNcGWvJvnzpj6t3N4e3KKlX1zdBjCb4z5gA2KS8gZcP6J1l7pCnEKkZFdxMUc9IJdPw=="
+    js: "sha512-7rusk8kGPFynZWu26OKbSqrpV4D5v3e/e+H2WzZ/aVcpC4V4gCN5M7a6K8RvI5cS7z6rIK1VoD0N0C1UpKvS6g=="
+fontawesome:
+  version: "6.4.2"
+  integrity: "sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+jquery:
+  version: "3.6.0"
+  integrity: "sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+masonry:
+  version: "4.2.2"
+  integrity: "sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+medium_zoom:
+  version: "1.0.8"
+  integrity: "sha512-CsOoUXXPxDy5w9M2l/C4O9OABL4L1JZzl+X/qXfUKD6H5IBVr5YR9kO6cMKPnGKVWVbKJLvklrZQb/bXBrMspQ=="
