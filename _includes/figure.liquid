@@ -1,0 +1,16 @@
+{% if include.path %}
+  <figure>
+    <img
+      src="{{ include.path | relative_url }}"
+      class="{{ include.class }}"
+      {% if include.sizes %}sizes="{{ include.sizes }}"{% endif %}
+      alt="{{ include.alt }}"
+      {% if include.loading %}loading="{{ include.loading }}"{% endif %}
+      {% if include.id %}id="{{ include.id }}"{% endif %}
+      {% if include.data_zoomable %}data-zoomable{% endif %}
+    />
+    {% if include.caption %}
+      <figcaption class="caption">{{ include.caption }}</figcaption>
+    {% endif %}
+  </figure>
+{% endif %}
