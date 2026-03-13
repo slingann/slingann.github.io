@@ -9,7 +9,6 @@ profile:
   image: IMG_3062.jpeg
   image_circular: true
   more_info: >
-    <p>From Hayward, CA</p>
     <p>slingan@berkeley.edu</p>
 
 news: true
