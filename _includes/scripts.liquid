@@ -1,0 +1,27 @@
+<!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@{{ site.jquery.version }}/dist/jquery.min.js" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/js/bootstrap.bundle.min.js" integrity="{{ site.bootstrap.integrity.js }}" crossorigin="anonymous"></script>
+
+<!-- Masonry -->
+{% if site.enable_masonry %}
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@{{ site.masonry.version }}/dist/masonry.pkgd.min.js" integrity="{{ site.masonry.integrity }}" crossorigin="anonymous"></script>
+{% endif %}
+
+<!-- Medium Zoom JS -->
+{% if site.enable_medium_zoom %}
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@{{ site.medium_zoom.version }}/dist/medium-zoom.min.js" integrity="{{ site.medium_zoom.integrity }}" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      mediumZoom('[data-zoomable]', {
+        background: getComputedStyle(document.documentElement).getPropertyValue('--global-bg-color') + 'ee',
+      });
+    });
+  </script>
+{% endif %}
+
+<!-- Progress Bar JS -->
+{% if site.enable_progressbar %}
+  <script src="{{ '/assets/js/progressbar.js' | relative_url }}"></script>
+{% endif %}
