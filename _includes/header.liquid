@@ -1,0 +1,39 @@
+<nav id="navbar" class="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}
+    </a>
+
+    <button class="navbar-toggler" type="button" onclick="document.getElementById('navbarNav').classList.toggle('show')">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/' | relative_url }}">about</a>
+        </li>
+        <li class="nav-item {% if page.title == 'research' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/research/' | relative_url }}">research</a>
+        </li>
+        <li class="nav-item {% if page.title == 'publications' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/publications/' | relative_url }}">publications</a>
+        </li>
+        <li class="nav-item {% if page.title == 'teaching' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/teaching/' | relative_url }}">teaching</a>
+        </li>
+        <li class="nav-item {% if page.title == 'experience' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/experience/' | relative_url }}">experience</a>
+        </li>
+        {% if site.enable_darkmode %}
+        <li class="nav-item toggle-container">
+          <button id="light-toggle" title="Change theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
