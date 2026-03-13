@@ -30,6 +30,13 @@ html[data-theme="dark"] {
   box-sizing: border-box;
 }
 
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+body, header, main, footer {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 body {
   background-color: var(--global-bg-color);
   color: var(--global-text-color);
