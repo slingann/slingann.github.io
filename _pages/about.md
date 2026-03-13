@@ -6,8 +6,8 @@ subtitle: Second-Year Undergraduate, <a href='https://www.cdss.berkeley.edu/'>UC
 
 profile:
   align: right
-  image: 
-  image_circular: false
+  image: IMG_3062.jpeg
+  image_circular: true
   more_info: >
     <p>From Hayward, CA</p>
     <p>slingan@berkeley.edu</p>
