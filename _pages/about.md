@@ -6,7 +6,7 @@ subtitle: Incoming PhD Student, <a href='https://www.cs.columbia.edu/'>Columbia 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 
   image_circular: false
   more_info: >
     <p>From San Diego, CA</p>
