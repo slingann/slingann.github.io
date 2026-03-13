@@ -7,48 +7,25 @@ nav: true
 nav_order: 6
 ---
 
-## Industry
-
-### Pinterest — Software Engineering Intern
-**Cloud Platform** | Summer 2025
-
-Built automated Terraform + AWS provisioning pipelines with gRPC-based manual-judgment workflows. Improved rollout safety via enforced bake periods.
-
----
-
-### Amazon — Software Development Engineer Intern
-**Summer 2024**
-
-Developed TinkerService, a mobile store-testing platform using DynamoDB, S3, and REST APIs. Deployed to production September 2024.
-
----
-
-### Sourcegraph — Technical Project Manager
-**2024**
-
-Evaluated LLM context-retrieval strategies for Cody AI coding assistant using semantic ranking with RoBERTa and Claude 3 Haiku.
-
----
-
-### Etsy — Software Engineering Intern
-**2023**
-
-Built a Go-based image-processing pipeline improving runtime by 79% and throughput by 32%.
-
----
-
 ## Leadership
 
-### UC Berkeley Codebase
-**VP External; Project Manager** | 2022–2025
+### UC Berkeley Visitor Services - Campus Ambassador
+**Since Fall 2024**
 
-- Led three software consulting teams (7–10 engineers each) for nonprofits and startups
-- Managed club branding, recruitment, and DEI partnerships
-- Delivered production-ready applications for social impact organizations
+Giving tours to public groups, high school and middle school students, etc., staffing Sather Tower (UC Berkeley's clock and bell tower), and answering questions at the Visitor Center.
 
 ---
 
-### NEXT for Autism — Software Developer
-**Contract**
+### Berkeley ANova - Events Committee Co-Officer
+**Spring 2026**
 
-Built technology solutions for autism support, reducing supervisor monitoring time by 30%. Applied user-centered design principles for accessible interfaces.
+Working with my co-officer to lead a team of five in planning the 2026 iteration of ANova's annual free 24-hour hackathon for Bay Area high-schoolers, ANova Hacks. As a general ANova mentor, I visit a local high school with other club members to teach beginner-friendly coding lessons to students after school.
+
+---
+
+## Teaching
+
+### Tutor - Data 8: Foundations of Data Science and Data 36: Data Scholars Foundations Seminar
+**Spring, Summer, and Fall 2025**
+
+Helped students learn foundational statistics and data science concepts and program in Python during office hours, discussion sections, and small-group tutoring sections. Supported Data Scholars, a program that has shaped my experience in Berkeley Data Science and supports students taking Data classes with little prior programming experience and those who are underrepresented minorities in STEM.
