@@ -1,0 +1,10 @@
+<div class="card hoverable">
+  {% if project.img %}
+    <img src="{{ project.img | relative_url }}" class="card-img-top" alt="{{ project.title }}" />
+  {% endif %}
+  <div class="card-body">
+    <h5 class="card-title">{{ project.title }}</h5>
+    <p class="card-text">{{ project.description }}</p>
+    <a href="{{ project.url | relative_url }}" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
