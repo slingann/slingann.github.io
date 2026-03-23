@@ -36,4 +36,4 @@ Here are some things I'm interested in, in no particular order:
 
 ## Beyond Academics
 
-Outside of class, I can be found researching what show to binge watch next, trying to find the best milk tea in Berkeley (Yi Fang is currently #1 on my ranking), and perfecting my primary Spotify playlist. I'm originally from **Hayward** — ask me about my favorite lookout spots in the Hayward hills and fun nature-y things to do in my hometown.
+Outside of class, I can be found researching what show to binge watch next, trying to find the best milk tea in Berkeley (Yi Fang is currently #1 on my ranking), watching cool bird videos, and perfecting my Spotify playlists. I'm originally from **Hayward, CA** — ask me about my favorite lookout spots in the Hayward hills.
