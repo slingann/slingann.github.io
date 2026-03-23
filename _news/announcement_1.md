@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-just a test :)
+i made a personal website!
